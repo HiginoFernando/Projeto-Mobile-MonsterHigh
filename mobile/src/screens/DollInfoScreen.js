@@ -18,7 +18,6 @@ export default function DollInfoScreen() {
   const navigation = useNavigation();
   const { doll = {} } = route.params || {};
 
-  // Inicializa FORM diretamente a partir de `doll`
   const [isEditing, setIsEditing] = useState(false);
   const [form, setForm] = useState({
     nome: doll.nome || '',
@@ -94,7 +93,7 @@ export default function DollInfoScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
-      {/* Header */}
+      {}
       <View style={styles.header}>
         <Image
           source={require('../assets/header-logo.png')}
@@ -103,7 +102,7 @@ export default function DollInfoScreen() {
         <Text style={styles.headerText}>MONSTERCOLLECTION</Text>
       </View>
 
-      {/* Modal */}
+      {}
       <View style={styles.modal}>
         <TouchableOpacity
           style={styles.closeButton}
