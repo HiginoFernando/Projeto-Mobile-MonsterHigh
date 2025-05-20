@@ -1,4 +1,4 @@
-// mobile/src/screens/Home.js
+
 import React, { useEffect, useState } from 'react';
 import {
   SafeAreaView,
@@ -269,18 +269,18 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 80
   },
-  // estilo para todos os ícones que levam tintColor (delete, check etc.)
+
   iconImage: {
     width: 24,
     height: 24,
     tintColor: '#ff1493',
   },
 
-  // estilo *sem* tintColor para o Info
+
   infoIconImage: {
     width: 24,
     height: 24,
-    // nenhuma propriedade tintColor aqui!
+    
   },
 
 

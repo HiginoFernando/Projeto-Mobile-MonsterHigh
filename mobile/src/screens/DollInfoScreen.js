@@ -1,4 +1,3 @@
-// mobile/src/screens/DollInfoScreen.js
 
 import React, { useState } from 'react';
 import {
